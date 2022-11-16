@@ -127,7 +127,7 @@
         "typescript": "4.5.5"
     },
     "scripts": {
-        "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
+        "prebuild": "npm install && tslint -c tslint.json -p tsconfig.json --fix",
         "build": "tsc",
         "prestart": "npm run build",
         "start": "node dist/src/index.js",
