@@ -63,7 +63,7 @@ npm run test-server
 npm run test-client
 ```
 
-![Testing Example](Automation.gif)
+![Testing Example](Automation.mp4)
 
 
 ## Postman collection :
