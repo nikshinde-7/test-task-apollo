@@ -20,5 +20,5 @@ model User {
 
 datasource db {
   provider = "postgresql"
-  url      = "postgres://nhdcmxvgljpjxd:1515c70aeb44c4721fc27c71cc056bcbb55a484e60c7c6865d726ce31b9c3716@ec2-176-34-215-248.eu-west-1.compute.amazonaws.com:5432/daa7p3hieut82k"
+  url      = env("DATABASE_URL")
 }
