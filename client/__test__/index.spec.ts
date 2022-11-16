@@ -13,7 +13,7 @@ beforeAll(async () => {
     headless: false,
   });
   page = await browser.newPage();
-  await page.goto('http://localhost:3000');
+  await page.goto('https://fantastic-design-frontend.herokuapp.com/');
 });
 
 test('visit signup page', async () => {
