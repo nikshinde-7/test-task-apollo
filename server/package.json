@@ -123,11 +123,10 @@
         "prisma": "^3.10.0",
         "ts-jest": "^27.1.3",
         "ts-node": "^10.6.0",
-        "tslint": "^6.1.3",
         "typescript": "4.5.5"
     },
     "scripts": {
-        "prebuild": "npm install && tslint -c tslint.json -p tsconfig.json --fix",
+        "prebuild": "npm install",
         "build": "tsc",
         "prestart": "npm run build",
         "start": "node dist/src/index.js",
